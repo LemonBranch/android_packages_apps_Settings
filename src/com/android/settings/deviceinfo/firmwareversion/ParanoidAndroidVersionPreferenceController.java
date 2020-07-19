@@ -24,9 +24,9 @@ import com.android.settings.core.BasePreferenceController;
 
 public class ParanoidAndroidVersionPreferenceController extends BasePreferenceController {
 
-    private static final String PA_VERSION_FLAVOR_PROP = "ro.pa.version.flavor";
-    private static final String PA_VERSION_CODE_PROP = "ro.pa.version.code";
-    private static final String PA_BUILD_VARIANT_PROP = "ro.pa.build.variant";
+    private static final String PA_VERSION_FLAVOR_PROP = "ro.zest.version.flavor";
+    private static final String PA_VERSION_CODE_PROP = "ro.zest.version.code";
+    private static final String PA_BUILD_VARIANT_PROP = "ro.zest.build.variant";
 
     private final Context mContext;
 
